@@ -1,19 +1,17 @@
 do
 
 function run(msg, matches)
-  return [[B L A C K +
+  return [AliEbadi
 -----------------------------------
-A new bot for manage your SuperGroups.
+رباتی جدید برای مدیریت گروه
 -----------------------------------
-@Black_CH #Channel
+راههای ارتباطی
 -----------------------------------
-@MehdiHS #developer
+@aliebadi5
 -----------------------------------
-@YflQw #manager
+@AliE1_bot
 -----------------------------------
-@Mr_Surena #manager
------------------------------------
-Bot number : +19092545429
+Bot number : +9217589052
 -----------------------------------
 Bot version : 6.7 ]]
 end
