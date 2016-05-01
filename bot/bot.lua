@@ -254,7 +254,8 @@ function create_config( )
     "updater",
     "qrCode",
     "groupRequest_V2_Test",
-    "inAdmin"
+    "inAdmin",
+    "boobs"
 
     },
     sudo_users = {136141698},--Sudo users
