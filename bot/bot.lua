@@ -219,7 +219,6 @@ function create_config( )
     "broadcast",
     "inv",
     "password",
-    "welcome",
     "toSupport",
     "me",
     "toStciker_By_Reply",
@@ -229,7 +228,6 @@ function create_config( )
     "badword",
     "aparat",
     "calculator",
-    "antiRejoin",
     "pmLoad",
     "inSudo",
     "blackPlus",
@@ -502,7 +500,7 @@ other commands :
 (use invite link to invite)
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 *Only owner can use res, setowner, promote, demote, and log commands
-Channel : @black_ch
+Channel : @aliebadi65
 ]],
   }
   serialize_to_file(config, './data/config.lua')
