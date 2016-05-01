@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-  return " The Support Invition Link : \n https://telegram.me/joinchat/A2ETvD160xvoj4y_pNAgig\n-------------------------------------\nChannel: @Black_CH"
+  return " The Support Invition Link : \n https://telegram.me/joinchat/CB1bgj60SsUKmRrfrypBTA\n-------------------------------------\nID: @AliE1_bot"
   end
 return {
   description = "shows support link", 
@@ -11,6 +11,7 @@ return {
     "^/tosupport$",
     "^#tosupport$",
     "^>tosupport$",
+     "^پشتیبانی$",
   },
   run = run
 }
