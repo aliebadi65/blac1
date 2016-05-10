@@ -1,28 +1,28 @@
 do
 
 function run(msg, matches)
-  return [[ B L A C K +
+  return [[ Smart
 -----------------------------------
 A new bot for manage your Supergroups.
 -----------------------------------
-@Black_CH #Channel
+@Smartgp #Channel
 -----------------------------------
-@MehdiHS #Developer
+@Aliebadi5 #Developer
 -----------------------------------
-@YflQw #Manager
+@Aliebadi5 #Manager
 -----------------------------------
-@Mr_Surena #Manager
+@AliE1_bot #Manager
 -----------------------------------
-Bot number : +19092545429
+Bot number : +18432530615
 -----------------------------------
-Bot version : 6.7 ]]
+Bot version : 8.7 ]]
 end
 
 return {
   description = "Shows bot version", 
-  usage = "version: Shows bot version",
+  usage = "ver: Shows bot version",
   patterns = {
-    "^[#!/]version$"
+    "^[#!/]ver$"
   }, 
   run = run 
 }
