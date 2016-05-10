@@ -3,7 +3,7 @@
 do
 
 function run(msg, matches)
-send_contact(get_receiver(msg), "+9217589052", " SMART", ".", ok_cb, false)
+send_contact(get_receiver(msg), "+18432530615", " SMART", ".", ok_cb, false)
 end
 
 return {
