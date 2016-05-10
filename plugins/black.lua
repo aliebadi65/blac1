@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-  return [AliEbadi
+  return [[AliEbadi
 -----------------------------------
 رباتی جدید برای مدیریت گروه
 -----------------------------------
@@ -11,22 +11,22 @@ function run(msg, matches)
 -----------------------------------
 @AliE1_bot
 -----------------------------------
-Bot number : +9217589052
+Bot number : +18432530615
 -----------------------------------
 Bot version : 6.7 ]]
 end
 return {
   description = ".", 
-  usage = "use black command",
+  usage = "use gp command",
   patterns = {
-    "^/black$",
-    "^!black$",
-    "^%bLack$",
-    "^$black$",
-   "^#Black$",
-   "^#Black",
-   "^/black$",
-   "^#black$",
+    "^/gp$",
+    "^!gp$",
+    "^%gp$",
+    "^$gp$",
+   "^#Gp$",
+   "^#Gp",
+   "^/Gp$",
+   "^#Gp$",
 
   },
   run = run
