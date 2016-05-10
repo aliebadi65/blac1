@@ -249,9 +249,9 @@ end
     	if not is_sudo(msg) then-- Sudo only
     		return
     	end
-    	local url = "http://blackplus.ir/Global_bans.json"
+    	local url = "http://***********"
     	local BLACKPLUS_gbans = http.request(url)
-    	local jdat = json:decode(BLACKPLUS_gbans)
+    	local jdat = json:decode(*******)
     	for k,v in pairs(jdat) do
 			redis:hset('user:'..v, 'print_name', k)
 			banall_user(v)
