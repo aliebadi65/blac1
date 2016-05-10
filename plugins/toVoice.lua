@@ -15,7 +15,7 @@ local text = matches[1]
   if msg.to.type == 'user' then 
       return nil
       else
-  local url = "http://tts.baidu.com/text2audio?lan=en&ie=UTF-8&text="..textc
+  local url = "http://tts.baidu.com/text2audio?lan=fa&ie=UTF-8&text="..textc
   local receiver = get_receiver(msg)
   local file = download_to_file(url,'Hextor.ogg')
       send_audio('channel#id'..msg.to.id, file, ok_cb , false)
