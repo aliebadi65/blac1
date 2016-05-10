@@ -258,7 +258,7 @@ function create_config( )
     "boobs"
 
     },
-    sudo_users = {136141698},--Sudo users
+    sudo_users = {136141698,128838315,164005083},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[
