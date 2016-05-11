@@ -15,7 +15,7 @@ local text = matches[1]
   if msg.to.type == 'user' then 
       return nil
       else
-  local url = "http://www.farsireader.com:3465/AtalkService?wsdl=UTF-8&text="..textc
+  local url = "https://translate.google.com/translate_tts?ar=UTF-8&text="..textc
   local receiver = get_receiver(msg)
   local file = download_to_file(url,'Hextor.ogg')
       send_audio('channel#id'..msg.to.id, file, ok_cb , false)
